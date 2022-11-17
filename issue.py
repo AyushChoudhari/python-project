@@ -54,7 +54,7 @@ def issueBooks():
     global StudentName
  
     window=Tk()
-    window.title('ProjectGurukul Library Management System')
+    window.title('Books Management System')
  
     greet = Label(window, font = ('arial', 30, 'bold'), text = "Issue Books")
     greet.grid(row = 0,columnspan = 3)
